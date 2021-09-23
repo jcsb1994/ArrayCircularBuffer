@@ -17,8 +17,6 @@ void ArrayCircularBuffer::write(int data) {
   {
     return;
   }
-  Serial.print("added ");
-      Serial.println(data);
 
   _buffer[_writeIdx] = data;
   _writeIdx++;

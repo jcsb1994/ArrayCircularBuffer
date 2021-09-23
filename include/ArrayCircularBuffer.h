@@ -33,7 +33,7 @@
 #include <string.h>
 #include "Arduino.h"
 
-#define BUFFER_MAX 3
+#define BUFFER_MAX 5
 
 class ArrayCircularBuffer
 {
